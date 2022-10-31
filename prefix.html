@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>prefix</title>
+	<style >
+		
+		body{
+			text-align:center;
+		}
+		/*type of filter: blur,brightnes,contrast,saturate,etx;
+		blur(px)
+		brightness(angka|%)
+		contrast(angka|%)
+		saturate(angka|%)
+		grayscale(angka|%)
+		sepia(angka|%)
+		hue-rotate(deg)
+		invert(angka|%)
+		opacity(angka|%)
+		drop-shadow(sama seperti box shadow)
+		*/
+
+		img{
+			/*filter: drop-shadow(5px 5px 5px black);*/
+			filter: blur(20px) grayscale(1);
+			transition: 0.3s;
+		}
+		img:hover{
+			filter: blur(0) grayscale(0);
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<img src="eswin.png" alt="eswin">
+
+</body>
+</html>
